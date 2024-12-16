@@ -1,9 +1,12 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Importante!!!!
+Version de react native actual "0.73.4"
+npm run build:ios Comando para crear main.jsbundle ejecutarlo cada que se agrege una imagen o libreria nueva
+<!-- Esto debe hacerse sin iniciar xcode debe estar cerrado -->
+Pod install si se agrega o (se degrada o actualiza una libreria) eliminar podFile.lock para evitar problemas con pods sobre escritos, borrar carpeta build en ios antes de compilar 
+<!-- El proyecto esta comprobado solo en ios-->
 
 # Getting Started
-
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -77,3 +80,4 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+-[React Native Icons](https://github.com/oblador/react-native-vector-icons) - the Open Source; GitHub **repository** for React Native.
